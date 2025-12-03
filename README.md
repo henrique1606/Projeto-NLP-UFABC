@@ -96,7 +96,7 @@ Tasks realizadas por LLM:
 - Resumo consolidado
 
 📦 Estrutura do Projeto
-
+```bash
 Projeto-NLP-UFABC/
 │
 ├── teste.py                     # Script principal da pipeline NLP
@@ -113,6 +113,7 @@ Projeto-NLP-UFABC/
      │    ├── wordcloud_<id>.png
      │    ├── context_chart_<id>.png
      │    └── relatorio_<id>.pdf
+```
 
 🔧 Instalação
 
@@ -149,3 +150,55 @@ Coloque dentro dele:
 Observação:
 O arquivo .env não deve ser enviado ao GitHub, pois contém segredos.
 Ele já está presente no .gitignore.
+
+
+▶️ Como Executar
+
+Com o ambiente ativado e o .env configurado:
+
+```bash
+    python teste.py
+ ```   
+
+📊 Exemplo de Relatório Gerado (PDF)
+
+Cada PDF contém:
+
+- Thumbnail do vídeo
+- Link clicável para o vídeo
+- Ordem usada na coleta (relevance, time ou rating)
+- Resumo consolidado dos comentários
+- Tabela completa de estatísticas
+- Wordcloud (nuvem de palavras)
+- Gráfico de distribuição de contextos
+- Lista detalhada de todos os comentários analisados
+
+🧠 Tecnologias utilizadas
+
+APIs
+
+- YouTube Data API v3
+- Groq Llama 3.1 
+- OpenAI GPT-4.1-mini 
+
+Bibliotecas principais
+
+- langchain
+- google-api-python-client
+- pandas
+- matplotlib
+- wordcloud
+- reportlab
+
+🛠️ Melhorias futuras
+
+- Deploy como API FastAPI
+- Dashboard interativo com Streamlit
+- Suporte ampliado para análise de sentimentos multilíngue
+- Detecção automática de spam nos comentários
+- Análise temporal (como os comentários evoluem ao longo do tempo)
+
+📄 Licença
+
+Este projeto é livre para uso acadêmico.
+Créditos: Henrique Cândido · UFABC
