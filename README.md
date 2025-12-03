@@ -80,11 +80,11 @@ VIDEO_IDS = [
 Cada vídeo gera sua própria pasta de saída.
 
 🧠 Arquitetura de NLP
-Modelos utilizados:
 
+Modelos utilizados:
 ---
-Groq Llama-3.1-8B-Instant → rápido e eficiente
-OpenAI GPT-4.1-mini (opcional)
+Groq Llama-3.1-8B-Instant (opcional)
+OpenAI GPT-4.1-mini
 ---
 Tasks realizadas por LLM:
 
@@ -94,3 +94,58 @@ Tasks realizadas por LLM:
 - Tradução inteligente
 - Palavras-chave
 - Resumo consolidado
+
+📦 Estrutura do Projeto
+
+Projeto-NLP-UFABC/
+│
+├── teste.py                     # Script principal da pipeline NLP
+├── requirements.txt             # Dependências do projeto
+├── .env                         # Variáveis de ambiente (não subir para o GitHub)
+├── 2025_Q3_PLN_PROJETO_PRÁTICO.ipynb   # Notebook de desenvolvimento
+│
+└── youtube_comments/
+     ├── <VIDEO_ID>/
+     │    ├── comentarios_youtube_<id>.json
+     │    ├── comentarios_analisados_<id>.json
+     │    ├── stats_resumo_<id>.json
+     │    ├── thumbnail_<id>.jpg
+     │    ├── wordcloud_<id>.png
+     │    ├── context_chart_<id>.png
+     │    └── relatorio_<id>.pdf
+
+🔧 Instalação
+
+1. Clone o repositório
+```bash
+git clone git@github.com:henrique1606/Projeto-NLP-UFABC.git
+cd Projeto-NLP-UFABC
+```
+
+2. Crie um ambiente virtual
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+1. Clone o repositório
+```bash
+pip install -r requirements.txt
+```
+
+🔐 Configuração das chaves de API
+
+Crie um arquivo .env na raiz do projeto:
+```bash
+touch .env
+```
+
+Coloque dentro dele:
+```python
+    YOUTUBE_API_KEY=SEU_TOKEN_AQUI
+    GROQ_API_KEY=SEU_TOKEN_AQUI
+    OPENAI_API_KEY=SEU_TOKEN_AQUI
+```
+Observação:
+O arquivo .env não deve ser enviado ao GitHub, pois contém segredos.
+Ele já está presente no .gitignore.
