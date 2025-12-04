@@ -120,7 +120,7 @@ Por esses motivos, ele não foi usado no pipeline final, mas continua disponíve
 ```bash
 Projeto-NLP-UFABC/
 │
-├── teste.py                     # Script principal da pipeline NLP
+├── main.py                     # Script principal da pipeline NLP
 ├── requirements.txt             # Dependências do projeto
 ├── .env                         # Variáveis de ambiente (não subir para o GitHub)
 ├── 2025_Q3_PLN_PROJETO_PRÁTICO.ipynb   # Notebook de desenvolvimento
@@ -178,7 +178,7 @@ Ele já está presente no .gitignore.
 Com o ambiente ativado e o .env configurado:
 
 ```bash
-    python teste.py
+    python main.py
  ```   
 
 ## **📊 Exemplo de Relatório Gerado (PDF)**
