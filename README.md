@@ -95,7 +95,6 @@ O GPT-4.1-mini é o modelo primário do sistema, responsável por gerar as class
 ✔ Em todas as tarefas críticas (sentimento, emoção, contexto, resumo, keywords), o GPT-4.1-mini apresentou maior precisão.
 
 🔹 **Modelo Secundário (usado para testes): Groq Llama-3.1-8B-Instant**
-👉 Utilizado principalmente durante desenvolvimento e validações
 
 O modelo Groq Llama-3.1-8B-Instant foi empregado ao longo do desenvolvimento por ser:
  - Extremamente rápido (latência muito baixa pela arquitetura Groq)
@@ -107,8 +106,8 @@ O modelo Groq Llama-3.1-8B-Instant foi empregado ao longo do desenvolvimento por
  - Mais variação na consistência das classificações
 
 Por esses motivos, ele não foi usado no pipeline final, mas continua disponível como opção alternativa.
-Tasks realizadas por LLM:
 
+🔹 Tasks realizadas por LLM:
 - Sentimento
 - Emoção
 - Contexto
