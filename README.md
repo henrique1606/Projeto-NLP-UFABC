@@ -130,7 +130,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-1. Clone o repositório
+3. Instalar as dependencias
 ```bash
 pip install -r requirements.txt
 ```
