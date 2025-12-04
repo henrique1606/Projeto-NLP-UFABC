@@ -13,9 +13,9 @@ O objetivo principal é entender padrões emocionais, sentimentais e contextuais
 - Usa a API oficial do YouTube Data v3.  
 - Recupera até *N* comentários por vídeo.  
 - Permite escolher a ordem de coleta:
-  - `relevance`
-  - `time`
-  - `rating`
+  - `relevance Comentários mais relevantes primeiro`
+  - `time Comentários mais recentes primeiro`
+  - `rating Comentários mais bem avaliados primeiro`
 
 ---
 
@@ -199,7 +199,7 @@ Cada PDF contém:
 APIs
 
 - YouTube Data API v3
-- Groq Llama 3.1 
+- Groq Llama 3.1 (Testes)
 - OpenAI GPT-4.1-mini 
 
 Bibliotecas principais
@@ -210,14 +210,6 @@ Bibliotecas principais
 - matplotlib
 - wordcloud
 - reportlab
-
-## **🛠️ Melhorias futuras**
-
-- Deploy como API FastAPI
-- Dashboard interativo com Streamlit
-- Suporte ampliado para análise de sentimentos multilíngue
-- Detecção automática de spam nos comentários
-- Análise temporal (como os comentários evoluem ao longo do tempo)
 
 ## **📄 Licença**
 
