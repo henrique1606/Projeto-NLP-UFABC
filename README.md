@@ -62,9 +62,9 @@ O relatório inclui:
 - Data e metadados  
 
 Arquivos são salvos em:
----
-youtube_comments/<VIDEO_ID>/
----
+
+  - youtube_comments/<VIDEO_ID>/
+
 
 ### **5. Suporte a múltiplos vídeos**
 
