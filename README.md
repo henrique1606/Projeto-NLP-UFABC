@@ -79,7 +79,7 @@ VIDEO_IDS = [
 ```
 Cada vídeo gera sua própria pasta de saída.
 
-### **🧠 Arquitetura de NLP**
+## **🧠 Arquitetura de NLP**
 
 Modelos utilizados:
 ---
@@ -95,7 +95,7 @@ Tasks realizadas por LLM:
 - Palavras-chave
 - Resumo consolidado
 
-### **📦 Estrutura do Projeto**
+## **📦 Estrutura do Projeto**
 
 ```bash
 Projeto-NLP-UFABC/
@@ -116,7 +116,7 @@ Projeto-NLP-UFABC/
      │    └── relatorio_<id>.pdf
 ```
 
-### **🔧 Instalação**
+## **🔧 Instalação**
 
 1. Clone o repositório
 ```bash
@@ -135,7 +135,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### **🔐 Configuração das chaves de API**
+## **🔐 Configuração das chaves de API**
 
 Crie um arquivo .env na raiz do projeto:
 ```bash
@@ -161,7 +161,7 @@ Com o ambiente ativado e o .env configurado:
     python teste.py
  ```   
 
-### **📊 Exemplo de Relatório Gerado (PDF)**
+## **📊 Exemplo de Relatório Gerado (PDF)**
 
 Cada PDF contém:
 
@@ -174,7 +174,7 @@ Cada PDF contém:
 - Gráfico de distribuição de contextos
 - Lista detalhada de todos os comentários analisados
 
-### **🧠 Tecnologias utilizadas**
+## **🧠 Tecnologias utilizadas**
 
 APIs
 
@@ -191,7 +191,7 @@ Bibliotecas principais
 - wordcloud
 - reportlab
 
-### **🛠️ Melhorias futuras**
+## **🛠️ Melhorias futuras**
 
 - Deploy como API FastAPI
 - Dashboard interativo com Streamlit
@@ -199,7 +199,7 @@ Bibliotecas principais
 - Detecção automática de spam nos comentários
 - Análise temporal (como os comentários evoluem ao longo do tempo)
 
-### **📄 Licença**
+## **📄 Licença**
 
 Este projeto é livre para uso acadêmico.
 Créditos: Henrique Cândido · UFABC
