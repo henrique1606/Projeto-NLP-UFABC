@@ -83,7 +83,7 @@ Cada vídeo gera sua própria pasta de saída.
 
 O projeto utiliza dois modelos de linguagem (LLMs), cada um escolhido por motivos específicos relacionados a custo, velocidade e qualidade das análises.
 
-🔹 ### **Modelo Principal: OpenAI GPT-4.1-mini**
+🔹 **Modelo Principal: OpenAI GPT-4.1-mini**
 
 O GPT-4.1-mini é o modelo primário do sistema, responsável por gerar as classificações mais precisas e coerentes. Ele foi escolhido como modelo oficial do pipeline porque oferece o melhor equilíbrio entre:
 
@@ -94,7 +94,7 @@ O GPT-4.1-mini é o modelo primário do sistema, responsável por gerar as class
 
 ✔ Em todas as tarefas críticas (sentimento, emoção, contexto, resumo, keywords), o GPT-4.1-mini apresentou maior precisão.
 
-🔹 ### **Modelo Secundário (usado para testes): Groq Llama-3.1-8B-Instant**
+🔹 **Modelo Secundário (usado para testes): Groq Llama-3.1-8B-Instant**
 👉 Utilizado principalmente durante desenvolvimento e validações
 
 O modelo Groq Llama-3.1-8B-Instant foi empregado ao longo do desenvolvimento por ser:
